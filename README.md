@@ -20,7 +20,7 @@ The library offers automatic algorithm selection based on input characteristics,
 
 <div align="center">
 
-![Peak Detection Visualization](/peakfinder/docs/assets/peak_detection_diagram.png)
+![Peak Detection Visualization](https://github.com/chiraag-kakar/peakfinder/blob/main/docs/assets/peak_detection_diagram.png)
 
 *Visualization showing 1D and 2D peak detection in action*
 
