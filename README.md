@@ -10,6 +10,7 @@ A robust Python toolkit for deterministic peak detection in one-dimensional, two
 [![Testing](https://img.shields.io/badge/testing-pytest-blue.svg)](https://pytest.org/)
 [![Semantic Versioning](https://img.shields.io/badge/semver-2.0.0-blue.svg)](https://semver.org/)
 [![Keep a Changelog](https://img.shields.io/badge/changelog-keep%20a%20changelog-blue.svg)](https://keepachangelog.com/)
+[![Release to PyPI](https://github.com/chiraag-kakar/peakfinder/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/chiraag-kakar/peakfinder/actions/workflows/release.yml)
 
 
 ## Overview
