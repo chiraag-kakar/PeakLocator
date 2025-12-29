@@ -28,7 +28,7 @@ class TestCompressDuplicates:
         compressed, indices = compress_duplicates(arr)
         assert len(compressed) == 1
         assert compressed[0] == 5
-        assert indices == [0]
+        assert indices == [3]
 
     def test_empty_array(self):
         """Test empty array."""

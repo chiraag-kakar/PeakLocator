@@ -39,12 +39,16 @@ def compress_duplicates(arr: np.ndarray) -> tuple[np.ndarray, list[int]]:
     indices: list[int] = []
 
     compressed.append(arr[0])
-    indices.append(0)
+    last_index = 0
 
     for i in range(1, len(arr)):
         if arr[i] != arr[i - 1]:
+            indices.append(last_index)
             compressed.append(arr[i])
-            indices.append(i)
+        last_index = i
+
+    # Append the last index of the final group
+    indices.append(last_index)
 
     return np.array(compressed), indices
 
