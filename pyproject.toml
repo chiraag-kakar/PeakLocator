@@ -53,10 +53,10 @@ Issues = "https://github.com/chiraag-kakar/peak-locator/issues"
 Changelog = "https://github.com/chiraag-kakar/peak-locator/blob/main/CHANGELOG.md"
 
 [tool.setuptools]
-packages = ["peakfinder"]
+packages = ["peak_locator"]
 
 [tool.setuptools.package-data]
-peakfinder = ["py.typed"]
+peak_locator = ["py.typed"]
 
 [tool.black]
 line-length = 100

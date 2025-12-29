@@ -5,8 +5,8 @@ include CHANGELOG.md
 include pyproject.toml
 
 # Include type stubs
-include peakfinder/py.typed
-recursive-include peakfinder *.pyi
+include peak_locator/py.typed
+recursive-include peak_locator *.pyi
 
 # Exclude unnecessary files
 global-exclude __pycache__
