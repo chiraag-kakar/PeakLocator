@@ -1,0 +1,7 @@
+theme: jekyll-theme-minimal
+title: PeakFinder
+description: Multi-Dimensional Peak Detection for Python
+logo: docs/assets/peak_detection_diagram.png
+
+# Configure GitHub Pages to serve from docs folder
+docs_source: docs
